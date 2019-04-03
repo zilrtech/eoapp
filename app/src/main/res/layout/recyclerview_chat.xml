@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+   >
+
+
+
+
+    <LinearLayout
+
+        android:background="#3580dc"
+        android:id="@+id/request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <ImageView
+
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+
+            android:padding="10dp"
+
+
+
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_black_24dp"
+
+            />
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_alignParentBottom="true"
+            >
+
+
+            <TextView
+
+
+                android:id="@+id/textViewtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:padding="5dp"
+
+                android:textSize="16dp"
+                android:textColor="#fff"
+
+                android:layout_marginTop="5dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <TextView
+
+
+            android:id="@+id/textViewdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:padding="5dp"
+            android:textSize="16dp"
+            android:textColor="#fff"
+
+            android:layout_marginTop="5dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+

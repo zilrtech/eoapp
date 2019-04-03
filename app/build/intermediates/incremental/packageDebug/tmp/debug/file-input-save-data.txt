@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Apr 02 18:24:32 PDT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\ali\\Downloads\\eoapp-master-20190330T163646Z-001\\eoapp-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

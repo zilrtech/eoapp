@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEEEE"
+    android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_above="@id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+
+            android:background="@drawable/ic_person_black_24dp"/>
+
+        <TextView
+            android:id="@+id/textViewusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="username "
+            android:inputType="text"
+            android:textColor="#000"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="clip_horizontal"
+            android:textColorHint="#000"
+            android:background="#00000000"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp" />
+
+
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:letterSpacing="0.0025"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"/>
+
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Delete my account"
+            android:letterSpacing="0.0025"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="#ff0022"
+            android:layout_alignParentBottom="true"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Create Request"
+
+
+        />
+
+
+    <item
+        android:id="@+id/menu_myrequests"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="My Requests"
+
+
+        />
+
+
+    <item
+        android:id="@+id/menu_user"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="My Acoount"
+
+        />
+
+</menu>

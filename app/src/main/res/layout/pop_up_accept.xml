@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:background="@color/AppBackGroundColor1"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message "
+        android:letterSpacing="0.0025"
+        android:inputType="text"
+        android:textColor="#7000"
+
+        android:textColorHint="#7000"
+        android:background="#00000000"
+        android:textSize="16dp"
+        android:padding="15dp" />
+
+
+</LinearLayout>

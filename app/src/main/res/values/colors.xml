@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#95d5ff</color>
+    <color name="colorPrimaryDark">#BDF4FF</color>
+    <color name="colorPrimaryBackground">#19454A</color>
+    <color name="colorAccent">#19454A</color>
+    <color name="colorFormBackground">#e4e4e4</color>
+
+
+    <color name="AppBackGroundColor1">#F0FFFF</color>
+    <color name="AppBackGroundColor2">#FBF6D9</color>
+
+
+
+    <color name="AppButtonColor">#f0ffff</color>
+
+
+    <color name="ligth_yellow">#03A9F4</color>
+</resources>

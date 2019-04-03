@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#fff">
+
+    <android.support.v7.widget.RecyclerView
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <EditText
+            android:id="@+id/editTextmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Message"
+            android:text=""
+            android:layout_weight="1"
+            android:inputType="text"
+            android:letterSpacing="0.0025"
+            android:textColorHint="#7000"
+            android:textSize="16dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#7000"
+            android:background="#eeee"
+            android:padding="15dp" />
+
+
+        <Button
+            android:id="@+id/buttonsend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEND"
+            android:letterSpacing="0.0025"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:filterTouchesWhenObscured="true"
+    tools:context=".activities.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="18dp"
+                android:layout_height="206dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical"
+
+
+                >
+
+
+                <ImageView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="102dp"
+
+                    android:layout_gravity="center_horizontal"
+
+                    app:srcCompat="@drawable/shops" />
+
+
+                <Button
+
+
+                    android:id="@+id/buttonshop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+
+                    android:text="shops"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="21dp"
+                android:layout_height="201dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical"
+
+
+                >
+
+
+                <ImageView
+
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/offer"
+
+                    />
+
+
+                <Button
+
+
+                    android:id="@+id/buttonoffer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+
+                    android:text="offers"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:weightSum="2"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical"
+
+
+                >
+
+
+                <ImageView
+
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/addeventimag"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/addevent"
+
+
+                    />
+
+
+                <Button
+
+
+                    android:id="@+id/buttonaddevent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+                    android:text="Add event"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical"
+
+
+                >
+
+
+                <ImageView
+
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/showevent"
+
+                    />
+
+
+                <Button
+
+
+                    android:id="@+id/buttonshow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+
+                    android:text="Show Events"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/holo_red_dark" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical"
+
+
+                >
+
+
+                <ImageView
+
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/chat"
+
+                    />
+
+
+                <Button
+
+
+                    android:id="@+id/buttonchat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+
+                    android:text="Chat"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/holo_red_dark" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="192dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical"
+
+
+                >
+
+
+                <ImageView
+
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/profile"
+
+                    />
+
+
+                <Button
+
+
+                    android:id="@+id/buttonprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+
+                    android:text="Profile"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@color/AppBackGroundColor1" >
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:letterSpacing="0.0025"
+            android:textColor="#fff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_above="@id/buttonSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+
+                <EditText
+                    android:id="@+id/editTexttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:editable="false"
+                    android:hint="Type"
+                    android:inputType="text"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+
+                    android:textColor="#7000"
+                    android:textColorHint="#7000"
+                    android:textSize="16dp"
+                    android:visibility="gone" />
+
+
+                <Spinner
+                    android:id="@+id/category_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Gender" />
+
+
+                <Spinner
+                    android:id="@+id/gender_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:entries="@array/size_entries" />
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/round"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentBottom="true"
+
+                >
+
+
+                <EditText
+                    android:id="@+id/editTextname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name "
+                    android:letterSpacing="0.0025"
+                    android:inputType="text"
+
+
+                    android:textColor="#7000"
+                    android:textColorHint="#7000"
+                    android:background="#00000000"
+                    android:textSize="16dp"
+                    android:padding="15dp" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/round"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                >
+
+
+
+
+                <EditText
+                    android:id="@+id/editTextguests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="guests"
+                    android:inputType="number"
+
+                    android:letterSpacing="0.0025"
+                    android:textColorHint="#7000"
+                    android:textSize="16dp"
+                    android:textColor="#7000"
+                    android:background="#00000000"
+                    android:padding="15dp" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/round"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentBottom="true"
+
+                >
+
+
+                <EditText
+                    android:id="@+id/editTextbudget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:hint="budget"
+                    android:inputType="number"
+                    android:letterSpacing="0.0025"
+                    android:padding="15dp"
+
+
+                    android:textColor="#7000"
+                    android:textColorHint="#7000"
+                    android:textSize="16dp" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round"
+                android:orientation="horizontal"
+
+                >
+
+
+                <EditText
+                    android:id="@+id/editTextdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:editable="false"
+                    android:hint="Date"
+                    android:inputType="date"
+                    android:letterSpacing="0.0025"
+
+                    android:padding="15dp"
+                    android:textColor="#7000"
+                    android:textColorHint="#7000"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/round"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                >
+
+
+
+
+                <EditText
+                    android:id="@+id/editTextlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="location"
+                    android:inputType="text"
+
+
+                    android:letterSpacing="0.0025"
+                    android:textColorHint="#7000"
+                    android:textSize="16dp"
+                    android:textColor="#7000"
+                    android:background="#00000000"
+                    android:padding="15dp" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/round"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                >
+
+
+
+
+                <EditText
+                    android:id="@+id/editTextidea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Idea"
+
+
+                    android:inputType="text"
+                    android:letterSpacing="0.0025"
+                    android:textColorHint="#7000"
+                    android:textSize="16dp"
+                    android:textColor="#7000"
+                    android:background="#00000000"
+                    android:padding="15dp" />
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

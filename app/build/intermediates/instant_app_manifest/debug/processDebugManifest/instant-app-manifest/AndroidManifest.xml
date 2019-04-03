@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.simplifiedcoding.retrofitandroidtutorial"
+    android:targetSandboxVersion="2"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="28" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="dev.university.eoapp.activities.AddNewOffer" />
+        <activity
+            android:name="dev.university.eoapp.AddOfferToCategory"
+            android:label="@string/title_activity_add_offer_to_category" />
+        <activity android:name="dev.university.eoapp.activities.RegisterActivity" />
+        <activity android:name="dev.university.eoapp.activities.user_profile" />
+        <activity android:name="dev.university.eoapp.activities.updateActivity" />
+        <activity android:name="dev.university.eoapp.activities.LoginActivity" />
+        <activity android:name="dev.university.eoapp.activities.ProfileActivity" />
+        <activity android:name="dev.university.eoapp.activities.HomeActivity" />
+        <activity android:name="dev.university.eoapp.activities.splash" />
+        <activity android:name="dev.university.eoapp.activities.ShopActivity" />
+        <activity android:name="dev.university.eoapp.activities.OffersActivity" />
+        <activity android:name="dev.university.eoapp.activities.category_offers" />
+        <activity android:name="dev.university.eoapp.activities.addevent" />
+        <activity android:name="dev.university.eoapp.activities.show_my_events" />
+        <activity android:name="dev.university.eoapp.activities.event_details" />
+        <activity android:name="dev.university.eoapp.activities.event_offersActivity" />
+        <activity android:name="dev.university.eoapp.activities.ChatActivity" />
+        <activity android:name="dev.university.eoapp.activities.ChatlistActivity" />
+        <activity android:name="dev.university.eoapp.activities.beginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
